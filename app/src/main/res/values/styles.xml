@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textviewstyle2">
+        <item name="android:textSize">14pt</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="backgroundstyle">
+        <item name="android:background">#DDC8A9</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>

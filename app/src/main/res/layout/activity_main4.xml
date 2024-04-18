@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    style="@style/backgroundstyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="12pt"
+        android:text="@string/quiz"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" How many types of muscles are in the human body? "
+        android:layout_margin="10dp"
+        android:id="@+id/txtviewQ1"
+        />
+
+    <RadioGroup
+        android:id="@+id/radiogroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radiobutton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  3  " />
+
+        <RadioButton
+            android:id="@+id/radiobutton12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  5  " />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Is muscle strain considered a type of injury to the muscular system? "
+        android:layout_margin="10dp"
+        android:id="@+id/txtviewQ2"
+        />
+
+    <RadioGroup
+        android:id="@+id/radiogroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <RadioButton
+            android:id="@+id/radiobutton21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  False  " />
+
+        <RadioButton
+            android:id="@+id/radiobutton22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  True  " />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncheck"
+        android:onClick="btnCheckOnClick"
+        android:layout_gravity="center"
+        android:text=" Check "
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:id="@+id/txtviewresult"
+        />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:text=" Back "
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="btnBackOnClick2" />
+
+</LinearLayout>

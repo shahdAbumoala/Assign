@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assign</string>
+    <string name="type_of_muscles">Type of muscles</string>
+    <string name="quiz">Quiz</string>
+    <string name="muscular_system_injuries">Muscular system injuries</string>
+    <string-array name="musclestype">
+        <item>Smooth Muscles</item>
+        <item>Skeletal Muscles</item>
+        <item>Cardiac Muscles</item>
+    </string-array>
+
+    <string-array name="musclesinjuries">
+        <item>Muscle strain</item>
+        <item>Muscle cramps</item>
+    </string-array>
+</resources>
